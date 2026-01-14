@@ -136,7 +136,9 @@ GROQ_API_KEY=your_groq_api_key_here
 This key is used by CrewAI to connect to the LLM.
 
 
+
 ###3. Execute the Requirements Analyst Agent
+---
 
 Run the following command from the project root:
 ```
@@ -145,6 +147,7 @@ python main.py
 ```
 
 ###4. View the generated output
+---
 
 After successful execution, the structured requirements output will be generated at:
 ```
@@ -153,7 +156,9 @@ output/sample_output.json
 ```
 
 
-10. Validation & Error Handling
+
+##10. Validation & Error Handling
+---
 
 Ensures valid JSON output
 
@@ -163,7 +168,8 @@ Handles malformed or incomplete inputs gracefully
 
 Uses CrewAI task constraints to prevent free-form output
 
-11. Preparation for Assignment 1B
+##11. Preparation for Assignment 1B
+---
 
 The agent is designed to:
 
@@ -175,7 +181,8 @@ Support downstream agents (e.g., Test Case Generator)
 
 Enable traceability between requirements and test cases
 
-12. Known Limitations & Future Enhancements
+##12. Known Limitations & Future Enhancements
+---
 
 Currently supports single-agent execution
 
