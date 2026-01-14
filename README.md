@@ -18,13 +18,15 @@ No rule-based or keyword-matching logic is used.
 All outputs are generated dynamically via an LLM.
 
 ## Architecture
-```User Story
+```
+User Story
 ↓
 CrewAI Agent (LLM-powered)
 ↓
 Task Execution
 ↓
-Structured JSON Output```
+Structured JSON Output
+```
 
 
 ## Files
