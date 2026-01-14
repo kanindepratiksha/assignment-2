@@ -160,25 +160,25 @@ output/sample_output.json
 ## 10. Validation & Error Handling
 ---
 
--Ensures valid JSON output
--Enforces schema compliance
--Handles malformed or incomplete inputs gracefully
--Uses CrewAI task constraints to prevent free-form output
+- Ensures valid JSON output
+- Enforces schema compliance
+- Handles malformed or incomplete inputs gracefully
+- Uses CrewAI task constraints to prevent free-form output
 
 ## 11. Preparation for Assignment 1B
 ---
 The agent is designed to:
--Produce structured, machine-readable output
--Maintain consistent IDs and categorization
--Support downstream agents (e.g., Test Case Generator)
--Enable traceability between requirements and test cases
+- Produce structured, machine-readable output
+- Maintain consistent IDs and categorization
+- Support downstream agents (e.g., Test Case Generator)
+- Enable traceability between requirements and test cases
 
 ## 12. Known Limitations & Future Enhancements
 ---
--Currently supports single-agent execution
--Can be extended to multi-agent collaboration
--Future enhancements may include:
--Traceability matrix generation
--Natural language querying of requirements
--Multi-format input support
+- Currently supports single-agent execution
+- Can be extended to multi-agent collaboration
+- Future enhancements may include:
+- Traceability matrix generation
+- Natural language querying of requirements
+- Multi-format input support
 
