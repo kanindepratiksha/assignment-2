@@ -165,7 +165,20 @@ output/sample_output.json
 - Handles malformed or incomplete inputs gracefully
 - Uses CrewAI task constraints to prevent free-form output
 
-## 11. Preparation for Assignment 1B
+## 11. Validation Report
+
+| Validation Item | Status |
+|----------------|--------|
+| Functional requirements ≥ 10 | ✅ |
+| Non-functional requirements | ✅ |
+| Edge cases ≥ 3 | ✅ |
+| Gaps identified ≥ 3 | ✅ |
+| JSON schema compliance | ✅ |
+| AI-generated via LLM | ✅ |
+| Framework usage (CrewAI) | ✅ |
+
+
+## 12. Preparation for Assignment 1B
 ---
 The agent is designed to:
 - Produce structured, machine-readable output
@@ -173,7 +186,7 @@ The agent is designed to:
 - Support downstream agents (e.g., Test Case Generator)
 - Enable traceability between requirements and test cases
 
-## 12. Known Limitations & Future Enhancements
+## 13. Known Limitations & Future Enhancements
 ---
 - Currently supports single-agent execution
 - Can be extended to multi-agent collaboration
